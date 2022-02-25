@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>𝐁𝐥𝐨𝐠𝐬 𝐏𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="blog">
+<!-- Live Style Switcher Starts - demo only -->
+<div id="switcher" class="">
+    <div class="content-switcher">
+        <h4>STYLE SWITCHER</h4>
+        <ul>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="img/styleswitcher/purple.png" alt="purple"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="img/styleswitcher/red.png" alt="red"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="img/styleswitcher/blue.png" alt="blue"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="img/styleswitcher/magenta.png" alt="magenta"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="img/styleswitcher/orange.png" alt="orange"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="img/styleswitcher/green.png" alt="green"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="img/styleswitcher/yellow.png" alt="yellow"/></a>
+            </li>
+        </ul>
+
+       <div id="hideSwitcher">&times;</div>
+    </div>
+</div>
+<div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+            <i class="fa fa-home"></i>
+            <a href="index.html">
+                <h2>𝐇𝐎𝐌𝐄</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-user"></i>
+            <a href="about.html">
+                <h2>𝐀𝐁𝐎𝐔𝐓</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-briefcase"></i>
+            <a href="portfolio.html">
+                <h2>𝐏𝐎𝐑𝐓𝐅𝐎𝐋𝐈𝐎</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-envelope-open"></i>
+            <a href="contact.html">
+                <h2>𝐂𝐎𝐍𝐓𝐀𝐂𝐓</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fa fa-comments"></i>
+            <a href="blog.html">
+                <h2>𝐁𝐋𝐎𝐆</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li><a href="index.html"><i class="fa fa-home"></i><span>𝐇𝐎𝐌𝐄</span></a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i><span>𝐀𝐁𝐎𝐔𝐓</span></a></li>
+                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>𝐏𝐎𝐑𝐓𝐅𝐎𝐋𝐈𝐎</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>𝐂𝐎𝐍𝐓𝐀𝐂𝐓</span></a></li>
+                <li class="active"><a href="blog.html"><i class="fa fa-comments"></i><span>𝐁𝐋𝐎𝐆</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1> 𝐌𝐘 <span> 𝐁𝐋𝐎𝐆𝐒 </span></h1>
+    <span class="title-bg"> 𝐏𝐎𝐒𝐓𝐒 </span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <!-- Articles Starts -->
+        <div class="row">
+            <!-- Article Starts -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
+                <article class="post-container">
+                    <div class="post-thumb">
+                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
+                            <img src="img/blog/blog-post-1.jpg" class="img-fluid" alt="Blog Post">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="entry-header">
+                            <h3><a href="blog-post.html">𝐓𝐎𝐏 𝟏𝟎 𝐀𝐈-𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐒𝐌𝐀𝐑𝐓 𝐇𝐎𝐌𝐄 𝐓𝐄𝐂𝐇𝐍𝐎𝐋𝐎𝐆𝐈𝐄𝐒 𝐈𝐍 𝐔𝐒𝐄 𝐈𝐍 𝟐𝟎𝟐𝟐</a></h3>
+                        </div>
+                        <div class="entry-content open-sans-font">
+                            <p>𝚃𝚑𝚎𝚜𝚎 𝚃𝚘𝚙 𝟷𝟶 𝙰𝙸-𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚂𝚖𝚊𝚛𝚝 𝙷𝚘𝚖𝚎 𝚃𝚎𝚌𝚑𝚗𝚘𝚕𝚘𝚐𝚒𝚎𝚜 𝚒𝚗-𝚑𝚘𝚖𝚎 𝚍𝚎𝚟𝚒𝚌𝚎𝚜 𝚌𝚊𝚗 𝚖𝚊𝚔𝚎 𝚢𝚘𝚞𝚛 𝚕𝚒𝚏𝚎 𝚜𝚖𝚊𝚛𝚝𝚎𝚛 𝚊𝚗𝚍 𝚌𝚘𝚘𝚕𝚎𝚛. 𝙷𝚎𝚛𝚎 𝚒𝚜 𝚊 𝚕𝚒𝚜𝚝 𝚘𝚏 𝚝𝚑𝚎 𝚝𝚘𝚙 𝟷𝟶 𝙰𝙸-𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚜𝚖𝚊𝚛𝚝 𝚑𝚘𝚖𝚎 𝚝𝚎𝚌𝚑𝚗𝚘𝚕𝚘𝚐𝚒𝚎𝚜 𝚏𝚘𝚛 𝟸𝟶𝟸𝟸.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Article Ends -->
+            <!-- Article Starts -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
+                <article class="post-container">
+                    <div class="post-thumb">
+                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
+                            <img src="img/blog/blog-post-2.jpg" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="entry-header">
+                            <h3><a href="blog-post.html">𝐈𝐍𝐓𝐑𝐎𝐃𝐔𝐂𝐓𝐈𝐎𝐍 𝐓𝐎 𝐂𝐋𝐎𝐔𝐃 𝐂𝐎𝐌𝐏𝐔𝐓𝐈𝐍𝐆</a></h3>
+                        </div>
+                        <div class="entry-content open-sans-font">
+                            <p>𝚆𝚎 𝚝𝚊𝚔𝚎 𝚊 𝚍𝚎𝚎𝚙 𝚍𝚒𝚟𝚎 𝚒𝚗𝚝𝚘 𝚝𝚑𝚎 𝚠𝚘𝚛𝚕𝚍 𝚘𝚏 𝚌𝚕𝚘𝚞𝚍 𝚌𝚘𝚖𝚙𝚞𝚝𝚒𝚗𝚐, 𝚝𝚑𝙰𝚗 𝚒𝚗𝚝𝚛𝚘𝚍𝚞𝚌𝚝𝚒𝚘𝚗 𝚝𝚘 𝚌𝚕𝚘𝚞𝚍 𝚌𝚘𝚖𝚙𝚞𝚝𝚒𝚗𝚐𝚎 𝚍𝚒𝚏𝚏𝚎𝚛𝚎𝚗𝚝 𝚝𝚢𝚙𝚎𝚜 𝚘𝚏 𝚜𝚎𝚛𝚟𝚒𝚌𝚎𝚜 𝚒𝚝 𝚙𝚛𝚘𝚟𝚒𝚍𝚎𝚜, 𝚊𝚗𝚍 𝚒𝚝𝚜 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗𝚜 𝚒𝚗 𝚝𝚑𝚎 𝚠𝚘𝚛𝚕𝚍.𝙱𝚞𝚝 𝚏𝚘𝚛 𝚖𝚊𝚗𝚢, 𝚝𝚑𝚎 𝚠𝚘𝚛𝚕𝚍 𝚘𝚏 𝚌𝚕𝚘𝚞𝚍 𝚌𝚘𝚖𝚙𝚞𝚝𝚒𝚗𝚐 𝚛𝚎𝚖𝚊𝚒𝚗𝚜 𝚘𝚋𝚕𝚒𝚚𝚞𝚎 𝚊𝚗𝚍 𝚌𝚘𝚗𝚏𝚞𝚜𝚒𝚗𝚐.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Article Ends -->
+            <!-- Article Starts -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
+                <article class="post-container">
+                    <div class="post-thumb">
+                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
+                            <img src="img\blog\blog-post-3.jpg" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="entry-header">
+                            <h3><a href="blog-post.html">𝐇𝐎𝐖 𝐓𝐎 𝐁𝐄𝐂𝐎𝐌𝐄 𝐀 𝐖𝐄𝐁 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 - 𝐀 𝐃𝐄𝐓𝐀𝐈𝐋𝐄𝐃 𝐆𝐔𝐈𝐃𝐄</a></h3>
+                        </div>
+                        <div class="entry-content open-sans-font">
+                            <p>𝙲𝚞𝚛𝚒𝚘𝚞𝚜 𝚝𝚘 𝚔𝚗𝚘𝚠 𝚑𝚘𝚠 𝚝𝚘 𝚋𝚎𝚌𝚘𝚖𝚎 𝚊 𝚠𝚎𝚋 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 ? 𝙲𝚘𝚗𝚏𝚞𝚜𝚎𝚍 𝚊𝚋𝚘𝚞𝚝 𝚠𝚑𝚎𝚛𝚎 𝚝𝚘 𝚜𝚝𝚊𝚛𝚝 ? 𝚆𝚘𝚗𝚍𝚎𝚛𝚒𝚗𝚐 𝚑𝚘𝚠 𝚖𝚞𝚌𝚑 𝚝𝚒𝚖𝚎 𝚢𝚘𝚞 𝚜𝚝𝚊𝚛𝚝 𝚎𝚊𝚛𝚗𝚒𝚗𝚐 𝚊𝚜 𝚊 𝚠𝚎𝚋 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 ? 𝙸𝚏 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚙𝚊𝚜𝚜𝚒𝚘𝚗𝚊𝚝𝚎 𝚊𝚋𝚘𝚞𝚝 𝚍𝚎𝚜𝚒𝚐𝚗𝚒𝚗𝚐 𝚊𝚗𝚍 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Article Ends -->
+            <!-- Article Starts -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
+                <article class="post-container">
+                    <div class="post-thumb">
+                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
+                            <img src="img\blog\blog-post-4.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="entry-header">
+                            <h3><a href="blog-post.html">𝐓𝐎𝐏 𝟏𝟎 𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐈𝐍𝐆 𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄𝐒 𝐑𝐄𝐂𝐑𝐔𝐈𝐓𝐄𝐑𝐒 𝐀𝐑𝐄 𝐋𝐎𝐎𝐊𝐈𝐍𝐆 𝐅𝐎𝐑 𝐈𝐍 𝟐𝟎𝟐𝟐</a></h3>
+                        </div>
+                        <div class="entry-content open-sans-font">
+                            <p>𝚈𝚘𝚞 𝚖𝚞𝚜𝚝 𝚔𝚗𝚘𝚠 𝚝𝚑𝚎𝚜𝚎 𝟷𝟶 𝚖𝚘𝚜𝚝 𝚙𝚘𝚙𝚞𝚕𝚊𝚛 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜 𝚝𝚘 𝚖𝚊𝚔𝚎 𝚝𝚑𝚎 𝚋𝚎𝚜𝚝 𝚒𝚖𝚙𝚛𝚎𝚜𝚜𝚒𝚘𝚗 𝚘𝚗 𝚝𝚑𝚎 𝚛𝚎𝚌𝚛𝚞𝚒𝚝𝚎𝚛𝚜. 𝙷𝚎𝚛𝚎 𝚊𝚛𝚎 𝚝𝚑𝚎 𝟷𝟶 𝚖𝚘𝚜𝚝 𝚙𝚘𝚙𝚞𝚕𝚊𝚛 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Article Ends -->
+            <!-- Article Starts -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
+                <article class="post-container">
+                    <div class="post-thumb">
+                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
+                            <img src="img\blog\blog-post-5.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="entry-header">
+                            <h3><a href="blog-post.html">𝐓𝐎𝐏 𝟏𝟎 𝐁𝐄𝐒𝐓 𝐓𝐑𝐀𝐕𝐄𝐋 𝐓𝐄𝐂𝐇 𝐂𝐎𝐌𝐏𝐀𝐍𝐈𝐄𝐒 𝐈𝐍 𝐈𝐍𝐃𝐈𝐀 𝟐𝟎𝟐𝟐</a></h3>
+                        </div>
+                        <div class="entry-content open-sans-font">
+                            <p>𝚃𝚎𝚌𝚑𝚗𝚘𝚕𝚘𝚐𝚢 𝚑𝚊𝚜 𝚋𝚎𝚌𝚘𝚖𝚎 𝚒𝚗𝚐𝚛𝚊𝚒𝚗𝚎𝚍 𝚒𝚗 𝚘𝚞𝚛 𝚍𝚊𝚒𝚕𝚢 𝚕𝚒𝚟𝚎𝚜, 𝚝𝚛𝚊𝚗𝚜𝚏𝚘𝚛𝚖𝚒𝚗𝚐 𝚑𝚘𝚠 𝚠𝚎 𝚠𝚘𝚛𝚔, 𝚜𝚑𝚘𝚙, 𝚎𝚊𝚝, 𝚊𝚗𝚍 𝚜𝚙𝚎𝚗𝚍 𝚘𝚞𝚛 𝚏𝚛𝚎𝚎 𝚝𝚒𝚖𝚎. 𝚆𝚎 𝚌𝚊𝚗 𝚘𝚛𝚍𝚎𝚛 𝚏𝚘𝚘𝚍, 𝚋𝚞𝚢 𝚑𝚘𝚖𝚎 𝚊𝚙𝚙𝚕𝚒𝚊𝚗𝚌𝚎𝚜, 𝚊𝚗𝚍 𝚖𝚞𝚌𝚑 𝚖𝚘𝚛𝚎 𝚠𝚒𝚝𝚑 𝚓𝚞𝚜𝚝 𝚊 𝚏𝚎𝚠 𝚎𝚊𝚜𝚢 𝚝𝚊𝚙𝚜 𝚘𝚗 𝚘𝚞𝚛 𝚜𝚖𝚊𝚛𝚝𝚙𝚑𝚘𝚗𝚎𝚜.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Article Ends -->
+            <!-- Article Starts -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
+                <article class="post-container">
+                    <div class="post-thumb">
+                        <a href="blog-post.html" class="d-block position-relative overflow-hidden">
+                            <img src="img/blog/blog-post-6.jpg" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <div class="entry-header">
+                            <h3><a href="blog-post.html">𝐓𝐎𝐏 𝟏𝟎 𝐏𝐘𝐓𝐇𝐎𝐍 𝐏𝐑𝐎𝐉𝐄𝐂𝐓𝐒 𝐈𝐃𝐄𝐀𝐒 𝐓𝐎 𝐓𝐑𝐘 𝐎𝐔𝐓 𝐈𝐍 𝟐𝟎𝟐𝟐</a></h3>
+                        </div>
+                        <div class="entry-content open-sans-font">
+                            <p>𝙲𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢, 𝙿𝚢𝚝𝚑𝚘𝚗 𝚒𝚜 𝚝𝚑𝚎 𝚖𝚘𝚜𝚝 𝚠𝚒𝚍𝚎𝚕𝚢 𝚞𝚜𝚎𝚍 𝚙𝚛𝚘𝚐𝚛𝚊𝚖𝚖𝚒𝚗𝚐 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎 𝚒𝚗 𝚝𝚑𝚎 𝚝𝚎𝚌𝚑 𝚎𝚌𝚘𝚜𝚢𝚜𝚝𝚎𝚖. 𝙸𝚗 𝚝𝚑𝚒𝚜 𝚊𝚛𝚝𝚒𝚌𝚕𝚎, 𝚠𝚎 𝚑𝚊𝚟𝚎 𝚕𝚒𝚜𝚝𝚎𝚍 𝚝𝚑𝚎 𝚝𝚘𝚙 𝙿𝚢𝚝𝚑𝚘𝚗 𝚙𝚛𝚘𝚓𝚎𝚌𝚝𝚜 𝚒𝚍𝚎𝚊𝚜 𝚝𝚑𝚊𝚝 𝚋𝚎𝚐𝚒𝚗𝚗𝚎𝚛𝚜 𝚘𝚛 𝚎𝚟𝚎𝚗 𝚏𝚒𝚛𝚜𝚝-𝚝𝚒𝚖𝚎𝚛𝚜 𝚌𝚊𝚗 𝚝𝚛𝚢 𝚘𝚞𝚝 𝚒𝚗 𝟸𝟶𝟸𝟸.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Article Ends -->
+            <!-- Pagination Starts -->
+            <div class="col-12 mt-4">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center mb-0">
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Pagination Ends -->
+        </div>
+        <!-- Articles Ends -->
+    </div>
+
+</section>
+
+<!-- Template JS Files -->
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/preloader.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+
+</html>
